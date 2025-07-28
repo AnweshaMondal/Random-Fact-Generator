@@ -1,0 +1,32 @@
+# Development Environment Configuration
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    container_name: rfg-api-dev
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+      - MONGODB_URI=mongodb://mongo:27017/random-fact-generator-dev
+    ports:
+      - "3000:3000"
+      - "9229:9229" # Debug port
+    command: ["dumb-init", "npm", "run", "dev"]
+    depends_on:
+      - mongo
+      - redis
+
+  mongo:
+    ports:
+      - "27017:27017"
+
+  redis:
+    ports:
+      - "6379:6379"
