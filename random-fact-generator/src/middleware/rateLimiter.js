@@ -307,16 +307,3 @@ export const loginAttemptLimit = RateLimiter.loginAttemptLimit;
 export const passwordResetLimit = RateLimiter.passwordResetLimit;
 
 export default RateLimiter;
-        .then(plan => {
-            if (rateLimits[plan]) {
-                rateLimits[plan](req, res, next);
-            } else {
-                return res.status(403).json({ message: 'Invalid plan.' });
-            }
-        })
-        .catch(err => {
-            return res.status(500).json({ message: 'Error retrieving user plan.', error: err });
-        });
-};
-
-module.exports = applyRateLimit;

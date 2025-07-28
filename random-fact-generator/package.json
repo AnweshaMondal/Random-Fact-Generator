@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "start": "node src/app.js",
+    "start:simple": "node src/appSimple.js",
     "dev": "nodemon src/app.js",
+    "dev:simple": "nodemon src/appSimple.js",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
     "test:integration": "jest --testPathPattern=tests/integration",
