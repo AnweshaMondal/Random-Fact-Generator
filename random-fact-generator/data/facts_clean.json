@@ -1,0 +1,87 @@
+{
+  "facts": [
+    {
+      "fact": "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3000 years old and still perfectly edible.",
+      "category": "food",
+      "source": "National Geographic",
+      "source_url": "https://www.nationalgeographic.com",
+      "verified": true,
+      "tags": ["honey", "preservation", "ancient", "egypt"],
+      "difficulty_level": "intermediate"
+    },
+    {
+      "fact": "Octopuses have three hearts and blue blood. Two hearts pump blood to the gills, while the third pumps it to the rest of the body.",
+      "category": "animals",
+      "source": "Smithsonian",
+      "source_url": "https://www.smithsonianmag.com",
+      "verified": true,
+      "tags": ["octopus", "anatomy", "marine biology"],
+      "difficulty_level": "intermediate"
+    },
+    {
+      "fact": "Bananas are berries, but strawberries aren't. Botanically, a berry is a fruit produced from the ovary of a single flower with seeds embedded in the flesh.",
+      "category": "food",
+      "source": "Botanical Society",
+      "verified": true,
+      "tags": ["botany", "fruit", "classification"],
+      "difficulty_level": "beginner"
+    },
+    {
+      "fact": "The Eiffel Tower can be 15 cm taller during the summer due to thermal expansion of the metal.",
+      "category": "science",
+      "source": "Physics World",
+      "verified": true,
+      "tags": ["physics", "thermal expansion", "landmarks"],
+      "difficulty_level": "intermediate"
+    },
+    {
+      "fact": "A group of flamingos is called a 'flamboyance'. These birds get their pink color from the carotenoids in the algae and crustaceans they eat.",
+      "category": "animals",
+      "source": "Audubon Society",
+      "verified": true,
+      "tags": ["flamingo", "collective nouns", "diet"],
+      "difficulty_level": "beginner"
+    },
+    {
+      "fact": "The Great Wall of China is not visible from space with the naked eye, contrary to popular belief. This myth has been debunked by astronauts.",
+      "category": "history",
+      "source": "NASA",
+      "source_url": "https://www.nasa.gov",
+      "verified": true,
+      "tags": ["space", "mythology", "china", "great wall"],
+      "difficulty_level": "intermediate"
+    },
+    {
+      "fact": "A single cloud can weigh more than a million pounds. Despite this enormous weight, clouds float because the air around them is even denser.",
+      "category": "science",
+      "source": "USGS",
+      "verified": true,
+      "tags": ["clouds", "physics", "atmosphere"],
+      "difficulty_level": "intermediate"
+    },
+    {
+      "fact": "Sharks have been around longer than trees. Sharks evolved around 400 million years ago, while trees appeared around 350 million years ago.",
+      "category": "animals",
+      "source": "Smithsonian",
+      "verified": true,
+      "tags": ["sharks", "evolution", "timeline"],
+      "difficulty_level": "advanced"
+    },
+    {
+      "fact": "The human brain uses about 20% of the body's total energy, despite only making up about 2% of body weight.",
+      "category": "health",
+      "source": "Harvard Medical School",
+      "verified": true,
+      "tags": ["brain", "energy", "metabolism"],
+      "difficulty_level": "intermediate"
+    },
+    {
+      "fact": "There are more possible games of chess than there are atoms in the observable universe. The number of possible chess games is estimated to be 10^120.",
+      "category": "general",
+      "source": "Mathematical Association",
+      "verified": true,
+      "tags": ["chess", "mathematics", "combinatorics"],
+      "difficulty_level": "advanced"
+    }
+  ]
+}

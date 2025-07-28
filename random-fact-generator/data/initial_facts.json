@@ -1,23 +1,171 @@
 {
   "facts": [
     {
-      "fact_text": "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3000 years old and still perfectly edible.",
+      "fact": "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3000 years old and still perfectly edible.",
       "category": "food",
-      "source": "National Geographic"
+      "source": "National Geographic",
+      "source_url": "https://www.nationalgeographic.com",
+      "verified": true,
+      "tags": ["honey", "preservation", "ancient", "egypt"],
+      "difficulty_level": "intermediate"
     },
     {
-      "fact_text": "Octopuses have three hearts and blue blood. Two hearts pump blood to the gills, while the third pumps it to the rest of the body.",
+      "fact": "Octopuses have three hearts and blue blood. Two hearts pump blood to the gills, while the third pumps it to the rest of the body.",
       "category": "animals",
-      "source": "Smithsonian"
+      "source": "Smithsonian",
+      "source_url": "https://www.smithsonianmag.com",
+      "verified": true,
+      "tags": ["octopus", "anatomy", "marine biology"],
+      "difficulty_level": "intermediate"
     },
     {
-      "fact_text": "Bananas are berries, but strawberries aren't. Botanically, a berry is a fruit produced from the ovary of a single flower with seeds embedded in the flesh.",
+      "fact": "Bananas are berries, but strawberries aren't. Botanically, a berry is a fruit produced from the ovary of a single flower with seeds embedded in the flesh.",
       "category": "food",
-      "source": "Botanical Society"
+      "source": "Botanical Society",
+      "verified": true,
+      "tags": ["botany", "fruit", "classification"],
+      "difficulty_level": "beginner"
     },
     {
-      "fact_text": "The Eiffel Tower can be 15 cm taller during the summer due to thermal expansion of the metal.",
+      "fact": "The Eiffel Tower can be 15 cm taller during the summer due to thermal expansion of the metal.",
       "category": "science",
+      "source": "Physics World",
+      "verified": true,
+      "tags": ["physics", "thermal expansion", "landmarks"],
+      "difficulty_level": "intermediate"
+    },
+    {
+      "fact": "A group of flamingos is called a 'flamboyance'. These birds get their pink color from the carotenoids in the algae and crustaceans they eat.",
+      "category": "animals",
+      "source": "Audubon Society",
+      "verified": true,
+      "tags": ["flamingo", "collective nouns", "diet"],
+      "difficulty_level": "beginner"
+    },
+    {
+      "fact": "The Great Wall of China is not visible from space with the naked eye, contrary to popular belief. This myth has been debunked by astronauts.",
+      "category": "history",
+      "source": "NASA",
+      "source_url": "https://www.nasa.gov",
+      "verified": true,
+      "tags": ["space", "mythology", "china", "great wall"],
+      "difficulty_level": "intermediate"
+    },
+    {
+      "fact": "A single cloud can weigh more than a million pounds. Despite this enormous weight, clouds float because the air around them is even denser.",
+      "category": "science",
+      "source": "USGS",
+      "verified": true,
+      "tags": ["clouds", "physics", "atmosphere"],
+      "difficulty_level": "intermediate"
+    },
+    {
+      "fact": "Sharks have been around longer than trees. Sharks evolved around 400 million years ago, while trees appeared around 350 million years ago.",
+      "category": "animals",
+      "source": "Smithsonian",
+      "verified": true,
+      "tags": ["sharks", "evolution", "timeline"],
+      "difficulty_level": "advanced"
+    },
+    {
+      "fact": "The human brain uses about 20% of the body's total energy, despite only making up about 2% of body weight.",
+      "category": "health",
+      "source": "Harvard Medical School",
+      "verified": true,
+      "tags": ["brain", "energy", "metabolism"],
+      "difficulty_level": "intermediate"
+    },
+    {
+      "fact": "There are more possible games of chess than there are atoms in the observable universe. The number of possible chess games is estimated to be 10^120.",
+      "category": "general",
+      "source": "Mathematical Association",
+      "verified": true,
+      "tags": ["chess", "mathematics", "combinatorics"],
+      "difficulty_level": "advanced"
+    },
+    {
+      "fact": "Butterflies taste with their feet. They have chemoreceptors on their feet that help them identify suitable plants for laying eggs.",
+      "category": "animals",
+      "source": "Entomological Society",
+      "verified": true,
+      "tags": ["butterfly", "senses", "biology"],
+      "difficulty_level": "beginner"
+    },
+    {
+      "fact": "The International Space Station travels at approximately 17,500 mph (28,000 km/h) and orbits Earth every 90 minutes.",
+      "category": "space",
+      "source": "NASA",
+      "source_url": "https://www.nasa.gov",
+      "verified": true,
+      "tags": ["ISS", "orbit", "speed"],
+      "difficulty_level": "intermediate"
+    },
+    {
+      "fact": "A bolt of lightning is about 5 times hotter than the surface of the sun, reaching temperatures of about 30,000 Kelvin (53,540°F).",
+      "category": "science",
+      "source": "National Weather Service",
+      "verified": true,
+      "tags": ["lightning", "temperature", "weather"],
+      "difficulty_level": "intermediate"
+    },
+    {
+      "fact": "The oldest known living tree is a Great Basin bristlecone pine named Methuselah, which is over 4,850 years old.",
+      "category": "nature",
+      "source": "U.S. Forest Service",
+      "verified": true,
+      "tags": ["trees", "age", "longevity"],
+      "difficulty_level": "intermediate"
+    },
+    {
+      "fact": "Your stomach gets an entirely new lining every 3-4 days because stomach acid would otherwise digest it.",
+      "category": "health",
+      "source": "Johns Hopkins Medicine",
+      "verified": true,
+      "tags": ["stomach", "regeneration", "acid"],
+      "difficulty_level": "intermediate"
+    },
+    {
+      "fact": "The shortest war in history lasted only 38-45 minutes. It was between Britain and Zanzibar in 1896.",
+      "category": "history",
+      "source": "Historical Society",
+      "verified": true,
+      "tags": ["war", "duration", "zanzibar"],
+      "difficulty_level": "beginner"
+    },
+    {
+      "fact": "A day on Venus is longer than its year. Venus takes 243 Earth days to rotate once, but only 225 Earth days to orbit the Sun.",
+      "category": "space",
+      "source": "NASA",
+      "verified": true,
+      "tags": ["venus", "rotation", "orbit"],
+      "difficulty_level": "intermediate"
+    },
+    {
+      "fact": "The human eye can distinguish approximately 10 million different colors.",
+      "category": "health",
+      "source": "Optical Society",
+      "verified": true,
+      "tags": ["vision", "colors", "perception"],
+      "difficulty_level": "beginner"
+    },
+    {
+      "fact": "Wombat droppings are cube-shaped. This unique shape helps prevent the droppings from rolling away, allowing wombats to mark their territory effectively.",
+      "category": "animals",
+      "source": "Australian Wildlife Society",
+      "verified": true,
+      "tags": ["wombat", "unique features", "territory"],
+      "difficulty_level": "beginner"
+    },
+    {
+      "fact": "The first computer bug was an actual bug. In 1947, Grace Hopper found a moth trapped in a relay of Harvard's Mark II computer.",
+      "category": "technology",
+      "source": "Computer History Museum",
+      "verified": true,
+      "tags": ["computing", "history", "grace hopper"],
+      "difficulty_level": "intermediate"
+    }
+  ]
+}
       "source": "Science Daily"
     },
     {
