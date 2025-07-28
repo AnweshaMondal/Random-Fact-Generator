@@ -1,0 +1,54 @@
+{
+  "facts": [
+    {
+      "fact_text": "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3000 years old and still perfectly edible.",
+      "category": "food",
+      "source": "National Geographic"
+    },
+    {
+      "fact_text": "Octopuses have three hearts and blue blood. Two hearts pump blood to the gills, while the third pumps it to the rest of the body.",
+      "category": "animals",
+      "source": "Smithsonian"
+    },
+    {
+      "fact_text": "Bananas are berries, but strawberries aren't. Botanically, a berry is a fruit produced from the ovary of a single flower with seeds embedded in the flesh.",
+      "category": "food",
+      "source": "Botanical Society"
+    },
+    {
+      "fact_text": "The Eiffel Tower can be 15 cm taller during the summer due to thermal expansion of the metal.",
+      "category": "science",
+      "source": "Science Daily"
+    },
+    {
+      "fact_text": "A group of flamingos is called a 'flamboyance'.",
+      "category": "animals",
+      "source": "BirdLife International"
+    },
+    {
+      "fact_text": "Wombat poop is cube-shaped. This unique shape prevents the feces from rolling away, marking their territory effectively.",
+      "category": "animals",
+      "source": "Australian Museum"
+    },
+    {
+      "fact_text": "The shortest war in history was between Britain and Zanzibar on August 27, 1896. Zanzibar surrendered after 38 minutes.",
+      "category": "history",
+      "source": "BBC"
+    },
+    {
+      "fact_text": "A day on Venus is longer than a year on Venus. It takes about 243 Earth days to rotate once on its axis, but only about 225 Earth days to orbit the Sun.",
+      "category": "science",
+      "source": "NASA"
+    },
+    {
+      "fact_text": "The world's largest desert is Antarctica. While most people think of deserts as hot, a desert is defined by its low precipitation.",
+      "category": "geography",
+      "source": "National Geographic"
+    },
+    {
+      "fact_text": "Sharks are older than trees. Sharks have existed for around 400 million years, while trees appeared about 350 million years ago.",
+      "category": "science",
+      "source": "Smithsonian"
+    }
+  ]
+}
